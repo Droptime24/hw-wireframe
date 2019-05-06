@@ -1,7 +1,7 @@
 *   {
     box-sizing: border-box;
     text-align: center;
-    margin: auto;
+    margin: auto;  
 }
 
 body    {
@@ -9,47 +9,50 @@ body    {
     color: #777;
     background: #777;
     width: 960px;
-    font-size: 18px; 
+    font-size: 18px;  
 }
 
 header, nav, section, aside, footer {
     background: #ebebeb;
-    margin: 20px auto;
     padding: 20px;
-
-}
-
-section {
-    background: #ebebeb;
-    margin: 20px auto;
-    padding: 20px;
-    width: 495px;
-    float:  left;
-  
-}
-
-.right   {
-    margin: 20px auto;
-    padding: 20px;
-    float: right;
-  
+    margin-bottom: 20px;
 }
 
 article {
     background: #777;
     color: #ebebeb;
-    margin: 20px auto;
-    padding: 20px;   
+    padding: 10px;
+    margin: 20px 0px;
 }
 
 h1,p {
     background: #ebebeb;
     color:  #777;
-    margin: 20px auto;  
+    padding: 20px;
+    margin-bottom: 20px;
+  
+}
+
+#top {
+    margin: 10px auto;
+}
+
+.left {
+    background: #ebebeb;
+    width: 495px;
+    float:left;  
+}
+
+.right  {
+    position: relative;
+    float: right;
+    width: 453px;
+    height:307px;  
 }
 
 .clearfix::after {
     content: "";
     display: block;
-    clear: both;
+    clear: both; 
   }
+  
